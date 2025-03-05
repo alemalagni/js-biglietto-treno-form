@@ -6,26 +6,29 @@
     <title>Biglietto del treno</title>
 
     <!-- Link Stile --> <link rel="stylesheet" href="css/style.css">
-     
+
 </head>
 <body>
     <main>
         <section> <!-- Input -->
             <h2>Calcola il prezzo del tuo biglietto</h2>
-            <div>
-                <p>Km da percorrere</p>
-                <input type="text" name="km" id="km">
-            </div>
+            <div class="container">
+                <div>
+                    <p>Km da percorrere</p>
+                    <input type="text" name="km" id="km">
+                </div>
 
-            <div>
-                <p>Fascia d'età</p>
-                <input type="text" name="età" id="età">
+                <div>
+                    <p>Fascia d'età</p>
+                    <input type="text" name="età" id="età">
+                </div>
+                
+                <button id="genera">Genera</button>
+                <button id="annulla">Annulla</button>
             </div>
-            
-            <button id="genera">Genera</button>
-            <button id="annulla">Annulla</button>
 
         </section>
+
         <section> <!-- Output -->
             <h2>il tuo biglietto</h2>
             <div>
