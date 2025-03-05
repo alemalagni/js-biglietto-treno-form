@@ -1,11 +1,12 @@
 // Dichiarazione variabili
 const genera = document.getElementById("genera");
+const annulla = document.getElementById("annulla");
 let totale = 0;
 
 // Script
 genera.addEventListener('click',
     function () {
-        // Dichiarazione
+        // Dichiarazioni
         const km = document.getElementById("km");
         const età = document.getElementById("età");
 
@@ -38,6 +39,29 @@ genera.addEventListener('click',
         // Codice CP
         const codice = document.getElementById("codice");
         codice.innerHTML = parseInt(Math.random() * 99999 + 1)
-    }
-    
+    } 
 );
+
+annulla.addEventListener('click',
+    function() {
+        // Dichiarazioni
+        const km = document.getElementById("km");
+        const età = document.getElementById("età");
+        const tot = document.getElementById("totale");
+        const nome = document.getElementById("nome");
+        const nomePassaggero = document.getElementById("nomePasseggero");
+        const offerta = document.getElementById("offerta");
+        const carrozza = document.getElementById("carrozza");
+        const codice = document.getElementById("codice");
+
+        // Script
+        km.value = "";
+        età.value = "";
+        nome.value = "";
+        tot.innerHTML = "";
+        nomePassaggero.innerHTML = "";
+        offerta.innerHTML = "";
+        carrozza.innerHTML = "";
+        codice.innerHTML = "";
+    }
+)
