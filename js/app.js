@@ -5,9 +5,11 @@ let totale = 0;
 // Script
 genera.addEventListener('click',
     function () {
+        // Dichiarazione
         const km = document.getElementById("km");
         const età = document.getElementById("età");
 
+        // Script
         totale = km.value * 0.21;
 
         if ( età.value < 18 ) {
