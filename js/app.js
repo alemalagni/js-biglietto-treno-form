@@ -17,7 +17,7 @@ genera.addEventListener('click',
         }
 
         const tot = document.getElementById("totale");
-        tot.innerHTML = totale;
+        tot.innerHTML = parseFloat(totale).toFixed(2) + "€";
     }
     
 );
