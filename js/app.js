@@ -4,7 +4,7 @@ const età = prompt("Inserire la propria età:");
 let totale = 0;
 
 // Script
-totale = km * 0,21;
+totale = (km * 21) / 100;
 
 if ( età < 18 ) {
     totale = totale * 0,80
