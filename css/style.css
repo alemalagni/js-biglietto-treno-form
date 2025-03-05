@@ -18,6 +18,13 @@ h2 {
     padding: 25px 0px;
 }
 
+h3 {
+    color: black;
+    text-align: start;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
 button {
     background-color: lightgray;
     margin: 20px 9px;
@@ -48,4 +55,12 @@ button {
 
 .violetto {
     color: #b91547;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bg-gray{
+    background-color: gray;
 }
