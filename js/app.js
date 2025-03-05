@@ -21,6 +21,12 @@ genera.addEventListener('click',
         // Print
         const tot = document.getElementById("totale");
         tot.innerHTML = parseFloat(totale).toFixed(2) + "€";
+
+        // Nome passegero
+        const nome = document.getElementById("nome");
+        const nomePassaggero = document.getElementById("nomePasseggero");
+        nomePassaggero.innerHTML = nome.value;
+
     }
     
 );
