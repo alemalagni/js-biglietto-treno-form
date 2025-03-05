@@ -16,7 +16,8 @@ genera.addEventListener('click',
             totale = totale * 0.60;
         }
 
-        console.log(totale)
+        const tot = document.getElementById("totale");
+        tot.innerHTML = totale;
     }
     
 );
