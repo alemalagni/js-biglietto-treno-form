@@ -26,3 +26,7 @@ h2 {
     display: flex;
 }
 
+.center {
+    justify-content: center;
+}
+
