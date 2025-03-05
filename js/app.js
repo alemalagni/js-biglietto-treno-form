@@ -31,6 +31,10 @@ genera.addEventListener('click',
         const offerta = document.getElementById("offerta");
         offerta.innerHTML = "Biglietto Standard";
 
+        // Carrozza
+        const carrozza = document.getElementById("carrozza");
+        carrozza.innerHTML = parseInt(Math.random() * 14 + 1)
+
     }
     
 );
