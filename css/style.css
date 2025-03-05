@@ -36,6 +36,10 @@ button {
 }
 
 .center {
+    justify-content: center;
+}
+
+.space {
     justify-content: space-evenly;
 }
 
