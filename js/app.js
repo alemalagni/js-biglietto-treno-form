@@ -27,6 +27,10 @@ genera.addEventListener('click',
         const nomePassaggero = document.getElementById("nomePasseggero");
         nomePassaggero.innerHTML = nome.value;
 
+        // Offerta
+        const offerta = document.getElementById("offerta");
+        offerta.innerHTML = "Biglietto Standard";
+
     }
     
 );
