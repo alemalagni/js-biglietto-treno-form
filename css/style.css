@@ -15,6 +15,13 @@ body {
 h2 {
     color: white;
     text-transform: uppercase;
+    padding-top: 25px;
+}
+
+button {
+    background-color: lightgray;
+    padding-top: 20px;
+    font-weight: bold;
 }
 
 /* Classes */
