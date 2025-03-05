@@ -35,6 +35,9 @@ genera.addEventListener('click',
         const carrozza = document.getElementById("carrozza");
         carrozza.innerHTML = parseInt(Math.random() * 14 + 1)
 
+        // Codice CP
+        const codice = document.getElementById("codice");
+        codice.innerHTML = parseInt(Math.random() * 99999 + 1)
     }
     
 );
