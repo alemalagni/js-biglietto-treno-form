@@ -18,6 +18,7 @@ genera.addEventListener('click',
             totale = totale * 0.60;
         }
 
+        // Print
         const tot = document.getElementById("totale");
         tot.innerHTML = parseFloat(totale).toFixed(2) + "€";
     }
